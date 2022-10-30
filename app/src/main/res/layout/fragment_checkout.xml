@@ -57,7 +57,7 @@
             <TextView
                 android:id="@+id/entree_price"
                 style="@style/Widget.LunchTray.TextView.CheckoutItem.Info"
-                android:text='@{orderViewModel.menuItems[orderViewModel.entree.name].price}'
+                android:text='@{@string/amount(orderViewModel.entree.price)}'
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/entree_selection"
                 tools:text="$7.00"/>
@@ -73,7 +73,7 @@
             <TextView
                 android:id="@+id/side_price"
                 style="@style/Widget.LunchTray.TextView.CheckoutItem.Info"
-                android:text='@{orderViewModel.menuItems[orderViewModel.side.name].price}'
+                android:text='@{@string/amount(orderViewModel.side.price)}'
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/side_selection"
                 tools:text="$2.00"/>
@@ -89,7 +89,7 @@
             <TextView
                 android:id="@+id/accompaniment_price"
                 style="@style/Widget.LunchTray.TextView.CheckoutItem.Info"
-                android:text='@{orderViewModel.menuItems[orderViewModel.accompaniment.name].price}'
+                android:text='@{@string/amount(orderViewModel.accompaniment.price)}'
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/accompaniment_selection"
                 tools:text="$1.00"/>

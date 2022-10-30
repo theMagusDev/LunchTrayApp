@@ -1,0 +1,94 @@
+10-30 16:03:47.841 20535 20561 I TestRunner: started: radio_buttons_update_side_menu_subtotal(com.example.lunchtray.OrderFunctionalityTests)
+10-30 16:03:47.872 20535 20561 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-30 16:03:47.893 20535 20561 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10148; state: ENABLED
+10-30 16:03:47.948   817   913 D SplashScreenView: Build android.window.SplashScreenView{b0eb59e V.E...... ......ID 0,0-0,0}
+10-30 16:03:47.948   817   913 D SplashScreenView: Icon: view: null drawable: null size: 0
+10-30 16:03:47.948   817   913 D SplashScreenView: Branding: view: android.view.View{6cda87f G.ED..... ......I. 0,0-0,0 #10204a6 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+10-30 16:03:47.974 20535 20565 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-30 16:03:47.975   352   451 D goldfish-address-space: claimShared: Ask to claim region [0x3f2318000 0x3f2cbc000]
+10-30 16:03:47.981 20535 20565 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-30 16:03:47.989 20535 20565 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-30 16:03:47.995   352   451 D goldfish-address-space: claimShared: Ask to claim region [0x3f2cbc000 0x3f3660000]
+10-30 16:03:48.002  1161  1715 D EGL_emulation: app_time_stats: avg=2444.57ms min=2444.57ms max=2444.57ms count=1
+10-30 16:03:48.004   352   451 D goldfish-address-space: claimShared: Ask to claim region [0x3f5d03000 0x3f66a7000]
+10-30 16:03:48.010 20535 20535 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e67b646 in: PRE_ON_CREATE
+10-30 16:03:48.011 20535 20535 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e67b646
+10-30 16:03:48.057  1535  1535 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+10-30 16:03:48.058  1535  1535 E HwDetectorWithState: a: 3
+10-30 16:03:48.065 20535 20535 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e67b646 in: CREATED
+10-30 16:03:48.069 20535 20535 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e67b646
+10-30 16:03:48.076 20535 20535 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e67b646 in: STARTED
+10-30 16:03:48.076 20535 20535 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e67b646
+10-30 16:03:48.096 20535 20535 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e67b646 in: RESUMED
+10-30 16:03:48.097 20535 20535 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e67b646
+10-30 16:03:48.103 20535 20535 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e67b646 in: PAUSED
+10-30 16:03:48.104 20535 20535 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e67b646
+10-30 16:03:48.201 20535 20535 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@17d1364 in: PRE_ON_CREATE
+10-30 16:03:48.203 20535 20535 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+10-30 16:03:48.339 20535 20535 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@17d1364 in: CREATED
+10-30 16:03:48.339 20535 20535 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@17d1364
+10-30 16:03:48.345 20535 20535 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@17d1364 in: STARTED
+10-30 16:03:48.345 20535 20535 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@17d1364
+10-30 16:03:48.347 20535 20535 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@17d1364 in: RESUMED
+10-30 16:03:48.348 20535 20535 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@17d1364
+10-30 16:03:48.379   817   919 D EGL_emulation: app_time_stats: avg=1224.65ms min=1.79ms max=52330.51ms count=43
+10-30 16:03:48.387  9797  9797 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=145, right=0, bottom=132}
+10-30 16:03:48.388  9797  9797 I A       : onApplyWindowInsets: Adjusting for display cutouts. Safe insets: left=0, top=136, right=0, bottom=0
+10-30 16:03:48.390  9797  9797 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=145, right=0, bottom=132}
+10-30 16:03:48.421 20535 20563 D HostConnection: createUnique: call
+10-30 16:03:48.423 20535 20563 D HostConnection: HostConnection::get() New Host Connection established 0x7bf7f908eb50, tid 20563
+10-30 16:03:48.437 20535 20563 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+10-30 16:03:48.440   192   192 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+10-30 16:03:48.440 20535 20563 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-30 16:03:48.441 20535 20563 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-30 16:03:48.451 20535 20563 D EGL_emulation: eglCreateContext: 0x7bf7f908d290: maj 2 min 0 rcv 2
+10-30 16:03:48.479 20535 20563 D EGL_emulation: eglMakeCurrent: 0x7bf7f908d290: ver 2 0 (tinfo 0x7bfa10df9080) (first time)
+10-30 16:03:48.488   376   494 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827259835644672: Unsupported (8)
+10-30 16:03:48.494   192   192 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-30 16:03:48.494 20535 20563 I Gralloc4: mapper 4.x is not supported
+10-30 16:03:48.495 20535 20563 D HostConnection: createUnique: call
+10-30 16:03:48.497 20535 20563 D HostConnection: HostConnection::get() New Host Connection established 0x7bf7f908e910, tid 20563
+10-30 16:03:48.498 20535 20563 D goldfish-address-space: allocate: Ask for block of size 0x100
+10-30 16:03:48.499 20535 20563 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3ebffe000 size 0x2000
+10-30 16:03:48.500   192   192 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+10-30 16:03:48.500 20535 20563 W Gralloc4: allocator 4.x is not supported
+10-30 16:03:48.502   352   451 D goldfish-address-space: claimShared: Ask to claim region [0x3ecfd0000 0x3ed974000]
+10-30 16:03:48.510 20535 20563 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+10-30 16:03:48.515   352   451 D goldfish-address-space: claimShared: Ask to claim region [0x3ed974000 0x3ee318000]
+10-30 16:03:48.518   352   451 D goldfish-address-space: claimShared: Ask to claim region [0x3f062c000 0x3f0fd0000]
+10-30 16:03:48.552   586   611 I ActivityTaskManager: Displayed com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity: +649ms
+10-30 16:03:48.637 20535 20535 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10148; state: ENABLED
+10-30 16:03:48.876   586  2100 W InputManager-JNI: Input channel object 'b997bc2 Splash Screen com.example.lunchtray (client)' was disposed without first being removed with the input manager!
+10-30 16:03:49.090 20535 20535 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e67b646 in: STOPPED
+10-30 16:03:49.091 20535 20535 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e67b646
+10-30 16:03:49.133  1269  2850 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 16:03:49.134  1269  2850 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 16:03:49.138  1269  2850 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 16:03:49.159  1269  2850 I FontLog : Pulling font file for id = 129, cache size = 5 [CONTEXT service_id=132 ]
+10-30 16:03:49.181  1269  2850 I FontLog : Pulling font file for id = 129, cache size = 5 [CONTEXT service_id=132 ]
+10-30 16:03:49.202 20535 20561 D EventInjectionStrategy: Creating injection strategy with input manager.
+10-30 16:03:49.203 20535 20561 W ample.lunchtra: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+10-30 16:03:49.207 20535 20561 W ample.lunchtra: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+10-30 16:03:49.207 20535 20561 W ample.lunchtra: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+10-30 16:03:49.251  1391  1391 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420
+10-30 16:03:49.252  1391  1391 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():2002
+10-30 16:03:49.256  1391  1391 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():31 Notify device unlocked.
+10-30 16:03:49.356 20535 20561 W ample.lunchtra: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (unsupported, reflection, allowed)
+10-30 16:03:49.385   817   919 D EGL_emulation: app_time_stats: avg=8.02ms min=1.86ms max=54.53ms count=55
+10-30 16:03:49.388 20535 20535 W ample.lunchtra: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+10-30 16:03:49.388 20535 20535 W ample.lunchtra: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+10-30 16:03:49.390 20535 20535 W ample.lunchtra: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+10-30 16:03:49.405 20535 20535 W ample.lunchtra: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+10-30 16:03:49.405 20535 20535 W ample.lunchtra: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+10-30 16:03:49.406 20535 20535 W ample.lunchtra: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+10-30 16:03:49.428 20535 20535 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231129/com.example.lunchtray:id/salad>
+10-30 16:03:49.827 20535 20535 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Subtotal: $2.50"}' assertion on view view.getId() is <2131231208/com.example.lunchtray:id/subtotal>
+10-30 16:03:49.832 20535 20535 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231178/com.example.lunchtray:id/soup>
+10-30 16:03:49.946   372   525 D AudioFlinger: mixer(0x7b5a4b5a5a70) throttle end: throttle time(22)
+10-30 16:03:50.199 20535 20535 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Subtotal: $3.00"}' assertion on view view.getId() is <2131231208/com.example.lunchtray:id/subtotal>
+10-30 16:03:50.203 20535 20535 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231111/com.example.lunchtray:id/potatoes>
+10-30 16:03:50.284 20535 20563 D EGL_emulation: app_time_stats: avg=27.62ms min=2.44ms max=734.87ms count=52
+10-30 16:03:50.603 20535 20535 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Subtotal: $2.00"}' assertion on view view.getId() is <2131231208/com.example.lunchtray:id/subtotal>
+10-30 16:03:50.610 20535 20535 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231119/com.example.lunchtray:id/rice>
+10-30 16:03:51.255 20535 20535 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Subtotal: $1.50"}' assertion on view view.getId() is <2131231208/com.example.lunchtray:id/subtotal>
+10-30 16:03:51.257 20535 20561 I TestRunner: finished: radio_buttons_update_side_menu_subtotal(com.example.lunchtray.OrderFunctionalityTests)

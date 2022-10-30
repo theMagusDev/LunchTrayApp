@@ -15,6 +15,7 @@
  */
 package com.example.lunchtray.model
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
@@ -70,10 +71,10 @@ class OrderViewModel : ViewModel() {
      */
     fun setEntree(entree: String) {
         if(_entree.value != null)
-            previousEntreePrice = menuItems[entree]!!.price
+            previousEntreePrice = _entree.value!!.price
 
-        if(_subtotal.value != null)
-            _total.value?.minus(previousEntreePrice)
+        if(_subtotal.value != 0.0)
+            _subtotal.value = _subtotal.value?.minus(previousEntreePrice)
 
         _entree.value = menuItems[entree]
 
@@ -85,14 +86,14 @@ class OrderViewModel : ViewModel() {
      */
     fun setSide(side: String) {
         if(_side.value != null)
-            previousSidePrice = menuItems[side]!!.price
-
-        if(_subtotal.value != null)
-            _subtotal.value?.minus(previousSidePrice)
+            previousSidePrice = _side.value!!.price
+        if(_subtotal.value != 0.0)
+            _subtotal.value = _subtotal.value?.minus(previousSidePrice)
 
         _side.value = menuItems[side]
 
         updateSubtotal(menuItems[side]!!.price)
+
     }
 
     /**
@@ -100,10 +101,9 @@ class OrderViewModel : ViewModel() {
      */
     fun setAccompaniment(accompaniment: String) {
         if(_accompaniment.value != null)
-            previousAccompanimentPrice = menuItems[accompaniment]!!.price
-
-        if(_subtotal.value != null)
-            _subtotal.value?.minus(previousAccompanimentPrice)
+            previousAccompanimentPrice = _accompaniment.value!!.price
+        if(_subtotal.value != 0.0)
+            _subtotal.value = _subtotal.value?.minus(previousAccompanimentPrice)
 
         _accompaniment.value = menuItems[accompaniment]
 
@@ -114,19 +114,27 @@ class OrderViewModel : ViewModel() {
      * Update subtotal value.
      */
     private fun updateSubtotal(itemPrice: Double) {
-        if(_subtotal.value != null)
-            _subtotal.value?.plus(itemPrice)
+        if(_subtotal.value != 0.0) {
+            Log.d("OrderViewModel", "UpdateSubtotal if called, path: "
+                .plus(_subtotal.value)
+                .plus(" + ")
+                .plus(itemPrice)
+                .plus("= ".plus(_subtotal.value!!.plus(itemPrice))))
+            _subtotal.value = _subtotal.value!!.plus(itemPrice)
+
+        }
         else
            _subtotal.value = itemPrice
 
         calculateTaxAndTotal()
+
     }
 
     /**
      * Calculate tax and update total.
      */
     fun calculateTaxAndTotal() {
-        _tax.value = subtotal.value?.toDouble()?.times(taxRate)
+        _tax.value = _subtotal.value?.toDouble()?.times(taxRate)
         _total.value = _subtotal.value?.plus(_tax.value!!)
     }
 
