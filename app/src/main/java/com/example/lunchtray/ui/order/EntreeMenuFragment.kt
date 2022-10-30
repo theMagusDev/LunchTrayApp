@@ -57,7 +57,7 @@ class EntreeMenuFragment : Fragment() {
         binding.apply {
             lifecycleOwner = viewLifecycleOwner
             viewModel = sharedViewModel
-            // TODO: initialize the EntreeMenuFragment variables
+            entreeMenuFragment = this@EntreeMenuFragment
         }
     }
 
